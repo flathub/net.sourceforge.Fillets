@@ -37,7 +37,7 @@
                 }
             ],
             "build-commands": [
-                "make -j `nproc`",
+                "make -j $FLATPAK_BUILDER_N_JOBS",
                 "make install INSTALL_ROOT=/app"
             ],
             "cleanup": [ "/bin" ]
