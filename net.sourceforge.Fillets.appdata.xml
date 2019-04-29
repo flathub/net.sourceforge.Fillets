@@ -4,6 +4,9 @@
   <id>net.sourceforge.Fillets.desktop</id>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
+  <provides>
+    <id>fillets.desktop</id>
+  </provides>
   <name>Fish Fillets</name>
   <summary>Puzzle game with 70 levels</summary>
   <description>
